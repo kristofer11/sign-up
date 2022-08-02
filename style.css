@@ -1,4 +1,87 @@
-.container {
+:root {
+  --color: #e6007e;
+  --txt: rgb(185, 185, 185);
+}
+
+* {
+ font-family: 'Courgette', cursive; 
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content,
+.logo {
+  display: flex;
+  /* flex-flow: row wrap; */
+}
+
+.picture {
+  background-image: url(/scene.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+
+}
+
+.logo {
+  background-color: rgba(20, 20, 20, 0.25);
+  position: relative;
+  top: 20vh;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: wheat;
+  font-size: 6.5rem;
+}
+
+.logo-img {
+  height: 10vh;
+  border-radius: 6%;
+}
+
+.right {
+  width: 60vw;
+  background-color: #4412;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 22px;
+}
+
+.call-text {
+  font-weight: 600;
+  width: 85%;
+  font-size: 3rem;
+}
+
+.form-div {
+  background-color: lightgray;
+  box-shadow: 5px 11px 22px 3px lightgoldenrodyellow;
+  padding: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 2rem;
+  opacity: 75%;
+}
+
+input {
+  font-size: 2.2rem;
+  color: orangered;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* .container {
   display: flex;
   height: 1200px;
   max-width: 2000px;
@@ -57,4 +140,4 @@ form {
 
 .form-div p {
   display: flex;
-}
+} */

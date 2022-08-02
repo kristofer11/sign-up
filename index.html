@@ -5,11 +5,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign-Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Left of viewport. Fancy BG image with a logo -->
-  <div class="container">
+
+  <div class="content">
+    <div class="picture">
+      <div class="logo">
+        <img src="logo.jpg" alt="TRC Logo" class="logo-img">
+        <h1 class="trc">TRC</h1>
+      </div>
+    </div>
+    <div class="right">
+      <div class="call-text">
+        <p>This is totally a real company. We offer real services to real people in exchange for real money. You can tell we are real because we have a logo.</p>
+        <p>Sign up <em>immediately</em> to begin enjoying our real services!</p>
+      </div>
+      <form action="post">
+        <div class="form-div">
+          <p class="form-header">Let's <em>do</em> this!</p>
+          <div class="input">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name" required>
+          </div>
+
+          <div class="input">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+
+          <div class="input">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+
+          <div class="input">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="text" id="phone" name="phone" required>
+          </div>
+
+          <div class="input">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="input">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="text" id="confirm-password" name="confirm-password">
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
+      <div class="log-in">
+        <p>Already have an account?<a href="http://google.com">Log in</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div class="container">
 
     <div class="hero-div">       
       <div class="logo-div">
@@ -20,7 +77,7 @@
       </div>
     </div>
 
-    <!-- Sign-up form -->
+
     <div class="form-div">
       <form action="">
         <div class="form-body">
@@ -80,7 +137,7 @@
 
     </div>
 
-
+ -->
 
 </body>
 </html>
