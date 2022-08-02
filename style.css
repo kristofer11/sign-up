@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  height: 1200px;
+  max-width: 2000px;
+  justify-content: center;
+}
+
+.hero-div {
+  background-image: url(scene.jpg);
+  width: 45%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+}
