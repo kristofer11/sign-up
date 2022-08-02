@@ -5,14 +5,56 @@
   justify-content: center;
 }
 
+.caption {
+  margin-top: 177px;
+  color: lightblue;
+  text-align: center;
+}
+
 .hero-div {
   background-image: url(scene.jpg);
   width: 45%;
+  height: 1200px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.logo-div {
+  max-width: 100%;
+  background-color: rgba(111, 111, 111, 50%);
+  display: flex;
+  justify-content: center;
+  margin-top: 75%;
+  padding: 2rem;
+}
+
+.logo-div > img {
+  border-radius: 9%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .form-div {
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.form-div h3{
+  color: green;
+  font-size: 2rem;
+}
+
+
+.form-div p {
+  display: flex;
 }

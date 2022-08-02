@@ -8,53 +8,79 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <!-- Left of viewport. Fancy BG image with a logo -->
   <div class="container">
 
-    <div class="hero-div">
-      asdf
+    <div class="hero-div">       
+      <div class="logo-div">
+        <img src="/logo.jpg" alt="Totally Real Co logo with mountains and trees">
+      </div>   
+      <div class="caption">
+        <p>Photo by Salmen Bejaoui on Unsplash</p>          
+      </div>
     </div>
 
+    <!-- Sign-up form -->
     <div class="form-div">
-      <p>
-        This is not a real online service! It looks like it is, but <strong>it is not</strong>! Feel free to sign up if you like fake services.
-      </p>
-      <p><strong>You <em>know</em> you want to.</strong></p>
-
       <form action="">
-        <section>
-          <h1 class="form-header">Let's do this!</h1>
-        </section>
+        <div class="form-body">
+          <h3>
+            This is not a real online service! It looks like it is, but <strong>it is not</strong>! Feel free to sign up if you like fake services.
+          </h3>
+          <h3><strong>You <em>know</em> you want to.</strong></h3>
 
-        <section>
-          <p>
-            <label for="first-name">
-                FIRST NAME
-            </label>
-            <input type="text" id="first-name" name="first-name" required>
-          </p>
-          <p>
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name" name="last-name" required>
-          </p>
-        </section>
 
-        <section>
-          <p>
-            <label for="email">
-              EMAIL
-            </label>
-            <input type="email" id="email" name="email" required>
-          </p>
-          <p>
-            <label for="phone">PHONE NUMBER</label>
-            <input type="number" >
-          </p>
-        </section>
+          <section>
+            <h1 class="form-header">Let's do this!</h1>
+          </section>
+
+          <section>
+            <p>
+              <label for="first-name">
+                  FIRST NAME
+              </label>
+              <input type="text" id="first-name" name="first-name" required>
+            </p>
+            <p>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </p>
+          </section>
+
+          <section>
+            <p>
+              <label for="email">
+                EMAIL
+              </label>
+              <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+              <label for="phone">PHONE NUMBER</label>
+              <input type="number" >
+            </p>
+          </section>
+
+          <section>
+            <p>
+              <label for="pwd">PASSWORD</label>
+              <input type="password" id="pwd" name="password" required>
+            </p>
+            <p>
+              <label for="confirm-pwd">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-pwd" name="confirm-password">
+            </p>
+          </section>
+        </div>
+
+        <button type="submit">Create Account</button>
 
       </form>
+      <p>Already have an account? <a href="http://www.google.com" target="_blank">Log in</a></p>      
+      </div>
+
     </div>
 
-  </div>
+
+
 </body>
 </html>
