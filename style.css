@@ -1,15 +1,16 @@
-:root {
-  --color: #e6007e;
-  --txt: rgb(185, 185, 185);
-}
-
 * {
  font-family: 'Courgette', cursive; 
+ box-sizing: border-box;
+}
+
+body {
+  background-color: black;
 }
 
 .content {
-  width: 100vw;
-  height: 100vh;
+  width: 98vw;
+  height: 98vh;
+  background-color: lightgray;
 }
 
 .content,
@@ -24,7 +25,6 @@
   background-size: auto;
   background-repeat: no-repeat;
   width: 40vw;
-
 }
 
 .logo {
@@ -38,9 +38,12 @@
 
 h1 {
   color: wheat;
-  font-size: 6.5rem;
+  font-size: 4rem;
 }
 
+.first-letter {
+  font-size: 8.3rem;
+}
 .logo-img {
   height: 10vh;
   border-radius: 6%;
@@ -48,7 +51,7 @@ h1 {
 
 .right {
   width: 60vw;
-  background-color: #4412;
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -59,18 +62,33 @@ h1 {
 .call-text {
   font-weight: 600;
   width: 85%;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .form-div {
   background-color: lightgray;
   box-shadow: 5px 11px 22px 3px lightgoldenrodyellow;
   padding: 2rem;
+  /* height: 30vh; */
+  display: flex;
+  flex-flow: column;
+}
+
+.form-header {
+  font-size: 3rem;
+  height: 2vh;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 25vh;
 }
 
 .input {
-  display: flex;
-  flex-flow: column wrap;
   width: 40%;
   font-size: 2rem;
   opacity: 75%;
@@ -79,7 +97,48 @@ h1 {
 input {
   font-size: 2.2rem;
   color: orangered;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: .25rem solid forestgreen;
+  border-radius: .25rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 2.5rem;
+  margin: 4rem 2rem 0;
+  background-color: lightgreen;
+  border-radius: 0.75rem;
+  border: 0.45rem solid saddlebrown;
+}
+
+.log-in {
+  font-size: 2rem;
+  margin: 6.5rem 2rem;
+}
+
+a {
+  color: orangered;
+  font-size: 2.5rem;
+}
+
+.bold {
+  font-size: 3.5rem;
+  color: forestgreen;
+}
+
+button:hover {
+  background-color: darkgray;
+  color: forestgreen;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+input:focus {
+  border: .5rem solid goldenrod;
 }
 /* .container {
   display: flex;
